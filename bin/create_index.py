@@ -73,7 +73,7 @@ INDEX_TEMPLATE = r"""
 </html>
 """
 
-EXCLUDED = ['index.html', 'venv', '.git', '.github', 'bin']
+EXCLUDED = ['index.html', 'venv', '.git', '.github', 'bin', '.idea', '_config.yml']
 
 
 def fun(directory, root_dir):
